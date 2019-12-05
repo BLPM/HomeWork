@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val btn = findViewById<Button>(R.id.button)
-
+        val cd :Int = 13
         btn.setOnClickListener(View.OnClickListener {
             val dialog=AlertDialog.Builder(this)
             dialog.setTitle("請選擇功能")

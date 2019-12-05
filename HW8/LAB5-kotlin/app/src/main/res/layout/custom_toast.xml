@@ -17,6 +17,7 @@
         android:layout_margin="5dp"
         app:srcCompat="@drawable/star" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
